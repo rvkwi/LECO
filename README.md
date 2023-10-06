@@ -13,9 +13,6 @@ and the project page: https://erasing.baulab.info/
 ## Setup
 
 ```bash
-git clone https://github.com/p1atdev/LECO.git
-cd LECO/
-
 conda create -n leco python=3.10
 conda activate leco
 (leco) pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
