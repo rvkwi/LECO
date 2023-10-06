@@ -13,10 +13,15 @@ and the project page: https://erasing.baulab.info/
 ## Setup
 
 ```bash
+git clone https://github.com/p1atdev/LECO.git
+cd LECO/
+
 conda create -n leco python=3.10
-pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
-pip install xformers
-pip install -r requirements.txt
+conda activate leco
+(leco) pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+(leco) pip install xformers
+(leco) pip install -r requirements.txt
+(leco) pip install pytorch_lightning
 ```
 
 ## Train
