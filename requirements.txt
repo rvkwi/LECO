@@ -10,3 +10,4 @@ lion-pytorch
 prodigyopt
 wandb
 omegaconf
+pytorch_lightning
