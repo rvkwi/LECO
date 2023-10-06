@@ -21,7 +21,6 @@ conda activate leco
 (leco) pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
 (leco) pip install xformers
 (leco) pip install -r requirements.txt
-(leco) pip install pytorch_lightning
 ```
 
 ## Train
